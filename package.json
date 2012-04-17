@@ -1,7 +1,7 @@
 {
     "name":"express-plates",
     "description": "Plates template engine adapter for Express",
-    "version":"0.1.2",
+    "version":"0.1.3",
     "author":"Arnaud Rinquin <rinquin.arnaud@gmail.com>",
     "main":"./express-plates.js",
     "repository": "git://github.com/ArnaudRinquin/express-plates.git",
