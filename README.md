@@ -3,7 +3,7 @@
   This small piece of code allow you to simply use Flatiron's Plate template engine in within Express framework.
 
 # Example - How to
-Here is a simple example to render a /viewsindex.html
+Here is a simple example to render a /views/index.html
 
 ```js
 app = require('express').createServer();
