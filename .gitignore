@@ -1,0 +1,5 @@
+# ignore mac os x folder orefs file
+.DS_STORE
+# node module imports
+node_modules
+
