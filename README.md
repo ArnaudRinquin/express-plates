@@ -3,7 +3,8 @@
   This small piece of code allow you to simply use Flatiron's Plate template engine in within Express framework.
 
 # Example - How to
-Here is a simple example to render a /views/index.html
+Here is a simple example to render a /viewsindex.html
+
 ```js
 app = require('express').createServer();
 require('express-plates').init(app);
@@ -25,10 +26,11 @@ app.listen(8080);
 # Detailed setup and options
 ## Maps
 init(app) returns the plates object so you can retrieve it and use Map() easilly :
+
 ```js
 var plates = require('express-plates').init(app);
 
-...
+// further in the app...
 
 app.get('/', function(req, res) {
     var map = plates.Map();
@@ -43,3 +45,4 @@ app.get('/', function(req, res) {
     });
 });
 ```
+
