@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/ArnaudRinquin/express-plates.png)](http://travis-ci.org/ArnaudRinquin/express-plates)
 # express-plates
 
   This small piece of code allow you to simply use Flatiron's Plate template engine in within Express framework.
