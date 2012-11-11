@@ -6,7 +6,7 @@ expressplates = () ->
 
 expressplates.prototype =
     init: (app) ->
-        app.engin '.html', this.renderFile
+        app.engine '.html', this.renderFile
         app.set 'view engine', 'html'
         this.plates
     renderFile: (path, options, fn) ->
