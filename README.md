@@ -2,7 +2,11 @@
 
   This small piece of code allow you to simply use Flatiron's Plate template engine in within Express framework.
 
-# Example - How to
+# Example
+
+Ready to run examples can be found at [express-plates-examples](https://github.com/ArnaudRinquin/express-plates-example)
+
+# How to
 Here is a simple example to render a /views/index.html
 
 ```js
