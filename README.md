@@ -4,7 +4,7 @@
 
 # Example
 
-Ready to run examples can be found at [express-plates-examples](https://github.com/ArnaudRinquin/express-plates-example)
+Ready to run examples can be found at [express-plates-examples](https://github.com/ArnaudRinquin/express-plates-examples)
 
 # How to
 By default, .html views are associated to plates engine. The association is a one line code: `require('express-plates').init(app);`
