@@ -7,10 +7,13 @@
 Ready to run examples can be found at [express-plates-examples](https://github.com/ArnaudRinquin/express-plates-example)
 
 # How to
-Here is a simple example to render a /views/index.html
+By default, .html views are associated to plates engine. The association is a one line code: `require('express-plates').init(app);`
 
-```js
-app = require('express').createServer();
+Here is a more detailed example:
+
+
+``` js
+app = require('express')();
 require('express-plates').init(app);
 
 app.set('views', __dirname + '/views');
@@ -27,12 +30,26 @@ app.get('/', function(req, res) {
 app.listen(8080);
 ```
 
-# Detailed setup and options
-## Maps
-init(app) returns the plates object so you can retrieve it and use Map() easilly :
+You may customize the express engine setting:
+
+``` js
+var express = = require('express');
+var app = express();
+var expressPlates = require('express-plates');
+
+app.engine('.plate', expressPlates);
+
+```
+
+# Maps
+You can require plates and use Map() easilly :
 
 ```js
-var plates = require('express-plates').init(app);
+var expressPlates = require('express-plates');
+var plates = require('plates');
+
+app.engine('.html', expressPlates);
+app.set('views', __dirname + "/views");
 
 // further in the app...
 
