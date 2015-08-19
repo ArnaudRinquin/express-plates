@@ -34,3 +34,4 @@ expressPlates.init = function initF(app)
 };
 
 module.exports = expressPlates;
+exports.cache = {}
